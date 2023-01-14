@@ -153,6 +153,11 @@ source bin/activate      # Activate the virtualenv
 pip3 install meson       # Install Meson
 hash -r                  # Refresh bash paths
 ```
+and icu-i18n
+```
+brew install icu4c && brew link icu4c
+```
+
 
 If you need to install Ninja "manually":
 ```bash
